@@ -16,7 +16,7 @@ body{
 .container{
     background-color: rgb(70, 141, 54);
     display: grid;
-    grid-template-columns: 25vw 25vw;
+    grid-template-columns: repeat(2, 25vw);
     grid-template-rows: 10vh 8vh 25vh 25vh;
     grid-template-areas: "aba aba"
                          "aca aca"
